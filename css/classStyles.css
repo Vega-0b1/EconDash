@@ -1,0 +1,54 @@
+.close {
+  padding: 3% 3% 3% 3%;
+}
+
+.close:hover {
+  background-color: #f44336;
+}
+
+/* Style the header */
+.header {
+  background-color: #f44336;
+  padding: 3% 3%;
+  text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.addBtn {
+  padding: 3%;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+
+.nameBox{
+  background-color: #e6e6e6;
+  font-size: 1em;
+  padding: 3% 3%;
+}
+
+.valueBox{
+  background-color: #ffffff;
+  font-size: 1em;
+  text-align: center;
+  padding: 3% 3%;
+}
+
+.output-div{
+  background-color: #f44336;
+}

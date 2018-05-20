@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>econDash</title>
+    <meta name ="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <link rel="stylesheet" href="css/defaultStyles.css">
+    <link rel="stylesheet" href="css/classStyles.css">
+    <link rel="stylesheet" href="css/idStyles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./controllers/pageController.js"></script>
+    <script src="./controllers/dataController.js"></script>
+    <script src="./controllers/calcController.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="col-sm-12">
+        <h1 id="thisMonth"></h1>
+      </div>
+      <div class="col-sm-4">
+        <div id="myDIV" class="header">
+          <input type="text" id="income" placeholder="Income...">
+          <span id="add-income" class="addBtn">Add</span>
+        </div>
+
+        <ul id="income-ul"></ul>
+      </div>
+      <div class="col-sm-4">
+        <div id="myDIV" class="header">
+          <input type="text" id="savings" placeholder="Savings...">
+          <span id="add-savings" class="addBtn">Add</span>
+        </div>
+
+        <ul id="savings-ul"></ul>
+      </div>
+      <div class="col-sm-4">
+        <div id="myDIV" class="header">
+         <input type="text" id="bill" placeholder="Bills...">
+         <span id="add-bills" class="addBtn">Add</span>
+        </div>
+
+        <ul id="bill-ul"></ul>
+      </div>
+
+      <div class="col-sm-12 output-div">
+        <span id="calc">Calc</span>
+        <span id="output" placeholder="To be calculated..">
+          Calculate your left over amount..
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
