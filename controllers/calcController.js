@@ -1,7 +1,8 @@
 $( document ).ready(function() {
-  loadLists();
-  eventSetup();
   loadCurrentMonth();
+  eventSetup();
+  if(localStorage.getItem("data") !== null) loadLists();
+
 });
 
 function calc(){
